@@ -9,7 +9,6 @@ const FontLoader = () => {
   const fontStyles = fontFiles.map((font, index) => {
     const fontFileName = font.split("/").pop();
     const name = fontFileName.split(".")[0];
-    console.log(name);
 
     return (
       <style key={name}>
