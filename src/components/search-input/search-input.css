@@ -1,0 +1,44 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 8px;
+  transition: border-color 0.3s;
+  background-color: #f0f0f6;
+  max-width: 900px;
+  margin-bottom: 16px;
+}
+
+.input-container.active {
+  border-color: #5e56e7;
+}
+
+.search-icon {
+  margin-right: 5px;
+  height: 16px;
+  width: 16px;
+}
+
+.clear-icon {
+  cursor: pointer;
+  margin-left: 5px;
+  height: 16px;
+  width: 16px;
+}
+
+.show {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.custom-input {
+  outline: none;
+  border: none;
+  flex: 1;
+  background-color: #f0f0f6;
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+}

@@ -1,0 +1,32 @@
+.poster {
+  width: 100px;
+  height: 162px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
+.book-author {
+  color: #a0a0a0;
+}
+.book-name,
+.book-author {
+  font-family: Montserrat-Regular;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+
+.book-name {
+  color: #333333;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.book-card {
+  max-width: 115px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  margin-top: 12px;
+}

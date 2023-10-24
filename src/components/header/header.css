@@ -1,0 +1,19 @@
+.header {
+  background-size: cover;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.container {
+  max-width: 900px;
+  width: -webkit-fill-available;
+  padding: 16px;
+}
+
+.sticky {
+  top: 0;
+  position: sticky;
+}

@@ -1,0 +1,28 @@
+.topic-card {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 5px 5px 5px;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
+.topic-card > img {
+  height: 24px;
+  width: 24px;
+}
+.topic-card > .title {
+  flex: 1;
+  font-family: Montserrat-Regular;
+  margin-left: 16px;
+  font-size: 20px;
+}
+.topic-link {
+  text-decoration: none;
+  color: black;
+}
+img {
+  height: 48px;
+  width: 48px;
+}
